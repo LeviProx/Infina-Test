@@ -39138,7 +39138,7 @@ __webpack_require__.r(__webpack_exports__);
 const valid_chars = "!#$%&'*+-.0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ^_`abcdefghijklmnopqrstuvwxyz|~";
 const reserved_chars = "%";
 
-class Ultraviolet {
+class steve {
     constructor(options = {}) {
         this.prefix = options.prefix || '/service/';
         this.urlRegex = /^(#|about:|data:|mailto:)/
@@ -39154,7 +39154,7 @@ class Ultraviolet {
         this.handlerScript = options.handler || '/uv.handler.js';
         this.configScript = options.config || '/uv.config.js';
         this.meta.url ||= this.meta.base || '';
-        this.codec = Ultraviolet.codec;
+        this.codec = steve.codec;
         this.html = new _html_js__WEBPACK_IMPORTED_MODULE_0__["default"](this);
         this.css = new _css_js__WEBPACK_IMPORTED_MODULE_1__["default"](this);
         this.js = new _js_js__WEBPACK_IMPORTED_MODULE_2__["default"](this);
@@ -39296,8 +39296,8 @@ class Ultraviolet {
     static Bowser = bowser__WEBPACK_IMPORTED_MODULE_13__;
 };
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Ultraviolet);
-if (typeof self === 'object') self.Ultraviolet = Ultraviolet;
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (steve);
+if (typeof self === 'object') self.steve = steve;
 })();
 
 /******/ })()
